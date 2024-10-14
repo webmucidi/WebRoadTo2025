@@ -1,0 +1,24 @@
+body{
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: 200px 200px;
+    place-content: center;
+    
+}
+div{
+    background-color: red;
+    border: thin solid black;
+}
+#sol{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#sag{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.orta{
+    grid-column: 2/3;
+}

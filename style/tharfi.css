@@ -1,0 +1,19 @@
+body{
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: 200px 200px;
+    place-content: center;
+    /*ortalama için*/
+
+}
+
+div{
+    background-color: blueviolet;
+    border: thin solid black;
+}
+
+.kutuAlt{
+    grid-column: 2/3;
+}

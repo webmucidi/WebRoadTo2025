@@ -1,0 +1,17 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+div{
+    border: thin solid #000;
+}
+#ust{
+    background-color: red;
+}
+.ustKutular{
+    color: azure;
+}
+img{
+    width: 100%;
+}
